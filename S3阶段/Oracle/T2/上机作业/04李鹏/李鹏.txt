@@ -1,0 +1,21 @@
+lsnrctl stop     关闭Oracle服务
+lsnrctl start    开启Oracle服务
+net stop OracleServiceORCL   关闭数据库
+net start OracleServiceORCL  开启数据库
+sqlplus scott/123    登录
+help index    帮助命令
+conn  连接数据库或者更改用户
+disc  断开数据库连接
+spool  c:/aa.txt;
+select sysdate from dual;
+spool off;   
+在c盘下生成aa.txt文件，内容是spool和spool off之间的输出结果 
+在c盘下生成aaa.txt文件，内容是select * from emp;
+@c:aaa.txt   @字符用来载入指定的脚本文件并执行
+host cls    清屏
+ttitle  对齐方式‘标题’
+btitle  对齐方式‘页尾’
+例如:
+ttitle ‘部门列表’
+btitle ‘制表人:张三’
+set time on 显示当前时间
